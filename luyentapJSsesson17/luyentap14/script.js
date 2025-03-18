@@ -1,0 +1,11 @@
+let r = Number(prompt("Nhập bán kính: "));
+let h = Number(prompt("Nhập chiều cao: "));
+let pi = Math.PI;
+let surroundingArea = 2 * r * pi * h;
+let totalArea = 2 * pi * r * h * (r + h);
+let volume = pi * (r * r) * h;
+let bottomCircumference = 2 * pi * r;
+document.writeln("Diện tích xung quanh: " + surroundingArea.toFixed(2) + " ");
+document.writeln("Diện tích toàn phần: " + totalArea.toFixed(2) + " ");
+document.writeln("Thể tích: " + volume.toFixed(2) + " ");
+document.writeln("Diện tích đáy: " + bottomCircumference.toFixed(2) + " ");
